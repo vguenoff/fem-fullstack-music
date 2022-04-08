@@ -10,7 +10,7 @@ export const PlayerLayout = ({ children }) => {
             <Box marginLeft={250} marginBottom={100}>
                 {children}
             </Box>
-            <Box position="absolute" left={0} border={0}>
+            <Box position="absolute" left={0} bottom={0}>
                 player
             </Box>
         </Box>
